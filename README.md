@@ -16,9 +16,10 @@ Each level adds a new step to the sequence, challenging your memory skills!
 - Mobile and desktop friendly
 - Simple, responsive design
 
-![Game Screenshot](images/demo.png)
 
 ## Test Your Memory with Simon Says! 🧠🎮
 
 [🚀 Start Playing Simon Says](https://taha-javed-dev.github.io/Simon-Says-Game/)
+
+![Game Screenshot](images/demo.png)
 
