@@ -1,0 +1,146 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url(images/bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    max-width: 25rem;
+    max-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+}
+.info-sec {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .5rem;
+    align-items: center;
+}
+.row1,.row2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.1rem;
+}
+.box {
+    height: 89%;
+    width: 45%;
+    background-color: beige;
+    border-radius: 15%;
+    /* border: 5px solid white; */
+    border: 5px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+
+.voilet {
+    background-color: violet;
+}
+.red {
+    background-color: #DC143C;
+}
+.blue {
+    background-color: #6495ED;
+}
+.green {
+    background-color: #ADFF2F;
+}
+.gameFlash {
+    background-color: white;
+}
+.userFlash {
+    background-color:  #006400;
+}
+
+#startBtn {
+    padding: 12px 28px;
+    background: #4caf50;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.2s ease;
+}
+
+#startBtn:hover {
+    background: #45a049;
+    transform: scale(1.05);
+}
+
+#startBtn:active {
+    transform: scale(0.97);
+}
+
+@media (max-width: 450px){
+    .box {
+        height: 70%;
+        width: 30%;  
+    }
+    .wrapper {
+        gap: 3rem;
+    }
+    .blue {
+        background-color: #6495ED;
+        padding-top: 0%;
+    }
+    .row1,.row2 {
+        height: 40%;
+        
+    }
+    .row1{
+        display: flex;
+        align-items: end;
+    }
+}
+@media (max-width: 375px){
+    .box {
+        height: 60%;
+        width: 30%;  
+    }
+    .wrapper {
+        gap: 1rem;
+    }
+    .row1{
+        display: flex;
+        align-items: end;
+    }
+}
+@media (max-width: 36px){
+    .box {
+        height: 70%;
+        width: 35%;  
+    }
+    .row1{
+        display: flex;
+        align-items: end;
+    }
+    .wrapper{
+        gap: .5rem;
+    }
+}
